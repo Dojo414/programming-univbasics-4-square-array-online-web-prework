@@ -4,5 +4,6 @@ def square_array(array)
   while i < array.length
   newArray.push(array[i]**2)
   newArray
+  i += 1
 end 
 end
